@@ -23,6 +23,7 @@ env/
 
 # Documentation
 README.md
+prompts/
 
 # Docker
 Dockerfile
