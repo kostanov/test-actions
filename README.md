@@ -14,6 +14,20 @@ uv sync
 uv run uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
+## Использование с Docker
+
+Сборка и запуск приложения с помощью Docker:
+
+```bash
+# Сборка образа
+docker build -t time-backend .
+
+# Запуск контейнера
+docker run --rm -p 8000:8000 time-backend
+```
+
+После запуска сервер будет доступен на http://localhost:8000
+
 ## Endpoint'ы
 
 | Метод | Путь | Описание |
